@@ -1,0 +1,40 @@
+site_name: {{cookiecutter.project_name}} Documentation
+repo_name: {{cookiecutter.github_username}}/{{cookiecutter.project_slug}}
+repo_url: {{cookiecutter.github_url}}
+edit_uri: edit/master/docs
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-on-outline
+        name: Switch to light mode
+  features:
+    - navigation.top
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - footnotes
+  - meta
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pywdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+plugins:
+  - search
+  - mkdocstrings
