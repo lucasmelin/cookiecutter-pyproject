@@ -29,7 +29,7 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.details
   - pymdownx.inlinehilite
-  - pywdownx.keys
+  - pymdownx.keys
   - pymdownx.smartsymbols
   - pymdownx.snippets
   - pymdownx.superfences
